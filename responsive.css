@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #313131;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+button, #bottomSplashMessage {
+    display: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: -20px;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+a {
+    color: darkturquoise;
+}
+
+#topSplashMessage {
+    background: url('images/greeneryEdits.jpg');
+    background-repeat: round;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #202020;
+    height: 450px;
+    margin: 0;
+    position: relative;
+    top: -25px;
+}
+
+#black-logo {
+    width: 60px;
+    float: left;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
+}
+
+#topTitle h1 {
+    vertical-align: middle;
+}
+
+#topTitle h3 {
+    display: none;
+}
+
+#topTitle {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    width: 50%;
+}
+
+.bannerImage {
+    height: 200px;
+    width: 100%;
+}
+
+#white-logo {
+    display: none;
+}
+
+.twitter-button img, .instagram-button img, .linkedin-button img {
+    width: 30px;
+    margin: 10px 5px;
+    vertical-align: middle;
+}
+
+#controlBar {
+    margin: 0px 40px 0px 30px;
+    width: 40px;
+    position: absolute;
+}
+
+#description {
+    line-height: 2em;
+    margin: 10px 130px 40px 0;
+    position: relative;
+    left: 110px;
+    
+}
+
+h3 {
+    margin: 40px 0 0 20px;
+}
+
+p {
+    margin: 50px 20px;
+    line-height: 2em;
+    color: lightgray;
+    font-size: 0.9em;
+}
+
+.bannerImage {
+    height: 250px;
+}
